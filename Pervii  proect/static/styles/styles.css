@@ -1,0 +1,110 @@
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: contents;
+  font-family: "Manrope", sans-serif;
+}
+
+.header {
+  display: flex;
+    justify-content: space-between;
+  margin-left: 124px;
+  margin-top: 35px;
+  width: 1151.35px;
+  height: 25.18px;
+  font-size: 18px;
+  font-weight: 79px;
+}
+img{
+  display: block;
+  
+}
+
+.header>header>ul{
+ justify-content: space-between;
+  display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    /* padding-inline-start: 40px;
+    unicode-bidi: isolate;  */
+}
+
+.header>header>ul>li{
+display: block;
+    padding: 20px;
+    /* border-style: solid; */
+    /* border-width: 0.5px; */
+}
+
+
+
+p {
+  display: inline;
+width: 79px;
+height: 25px;
+margin-top: 33px;
+/* margin-left: 400px; */
+
+
+
+
+}
+.menu{
+  margin-left: 400px;
+}
+.zagolovok {
+  margin-left: 125px;
+  width: 1150px;
+
+}
+
+h1 {
+  margin-left: 125px;
+  width: 1150px;
+  font-size: 56px;
+  font-weight: 400px;
+  height: 120px;
+  line-height: 60px;
+  
+}
+
+
+.mi {
+  background-image: url(../images/Stul.png);
+  width: 1150px;
+  height: 500px;
+  
+  position: relative;
+  margin-left: 125px;
+ 
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 27.32px;
+  bottom: -20px;
+
+
+  color: white;
+
+}
+
+span {
+  position: absolute;
+  bottom: 50px;
+  margin-left: 50px;
+  font-size: large;
+  fon width: 430px;
+  height: 81px;
+}
+
