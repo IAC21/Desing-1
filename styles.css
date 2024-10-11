@@ -1,110 +1,467 @@
-.manrope {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.manrope>uniquifier> {
   font-family: "Manrope", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  display: contents;
+.header {
+  display: flex;
+  margin-top: 32.82px;
+  margin-left: 124.65px;
+  width: 1151.35px;
+  height: 25.18px;
+  justify-content: space-between;
   font-family: "Manrope", sans-serif;
 }
 
-.header {
-  display: flex;
-    justify-content: space-between;
-  margin-left: 124px;
-  margin-top: 35px;
-  width: 1151.35px;
-  height: 25.18px;
+a {
+  color: rgb(11, 11, 11);
+  text-decoration: none;
   font-size: 18px;
-  font-weight: 79px;
-}
-img{
-  display: block;
-  
+  font-weight: 400px;
+  width: 66px;
+  line-height: 25px;
 }
 
-.header>header>ul{
- justify-content: space-between;
+.header>ul {
   display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   /* margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-    /* padding-inline-start: 40px;
-    unicode-bidi: isolate;  */
+  list-style: none;
 }
 
-.header>header>ul>li{
-display: block;
-    padding: 20px;
-    /* border-style: solid; */
-    /* border-width: 0.5px; */
+ul>li {
+  padding-inline: 30px;
+  padding-right: 0px;
+  border: none;
 }
 
-
-
-p {
-  display: inline;
-width: 79px;
-height: 25px;
-margin-top: 33px;
-/* margin-left: 400px; */
-
-
-
-
+li:hover {
+  text-decoration: underline;
+  color: blue;
 }
-.menu{
-  margin-left: 400px;
+
+a:hover {
+  color: blue;
 }
-.zagolovok {
+
+.interier {
+  display: inline-block;
+  position: relative;
+  margin-top: 80px;
   margin-left: 125px;
-  width: 1150px;
-
+  width: 1151.35px;
+  height: 650px;
+  font-family: "Manrope", sans-serif;
 }
 
 h1 {
-  margin-left: 125px;
-  width: 1150px;
-  font-size: 56px;
-  font-weight: 400px;
+  font-size: 60px;
+  font-family: "Manrope", sans-serif;
+  width: 1000px;
   height: 120px;
   line-height: 60px;
-  
+  letter-spacing: 3%;
 }
-
 
 .mi {
-  background-image: url(../images/Stul.png);
-  width: 1150px;
-  height: 500px;
-  
   position: relative;
-  margin-left: 125px;
- 
-  font-size: 20px;
-  font-weight: 400px;
-  line-height: 27.32px;
-  bottom: -20px;
-
-
-  color: white;
-
+  width: 1150px;
+  height: 500.1px;
+  background-image: url(../images/Stul.png);
+  top: 25px;
 }
 
-span {
-  position: absolute;
-  bottom: 50px;
-  margin-left: 50px;
-  font-size: large;
-  fon width: 430px;
+.mi>span>p {
+  color: white;
+  position: relative;
+  margin-left: 3%;
+  top: 380px;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  line-height: 27.32px;
+  width: 490px;
   height: 81px;
 }
 
+.mi>span {
+  width: 1150px;
+  height: 500px;
+}
+
+.studia {
+  margin-left: 125px;
+  margin-top: 128px;
+  width: 1151px;
+  height: 518px;
+}
+
+.studia>span>p {
+  font-size: 45px;
+  line-height: 61.47px;
+  font-family: "Manrope", sans-serif;
+  padding-top: 20px;
+  letter-spacing: 0;
+  padding-bottom: 40px;
+}
+
+.onas>a {
+  color: rgb(221, 10, 10);
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400px;
+  width: 66px;
+  line-height: 25px;
+}
+
+.onas>a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.posmotreti {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  background-color: red;
+  border: 1px solid red;
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+}
+
+.proect {
+  padding-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 125px;
+  font-family: "Manrope", sans-serif;
+}
+
+.proect>a {
+  margin-left: -125px;
+  padding-top: 10px;
+}
+
+h3 {
+  margin-left: 0px;
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  line-height: 40.98px;
+  margin-bottom: 10px;
+}
+
+.podrobnee>a {
+  color: red;
+  width: 127px;
+  height: 27px;
+  line-height: 27.32px;
+  margin-top: 50px;
+}
+
+.proect>img {
+  margin-top: 20px;
+}
+
+.btn {
+  display: block;
+  background-color: white;
+  color: red;
+  margin-left: 0px;
+  width: 1150px;
+  height: 153px;
+  position: absolute;
+  font-size: 30px;
+  font-weight: 400px;
+  line-height: 40.98px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 90px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: red;
+}
+
+.uslugi {
+  background-color: black;
+  position: absolute;
+  margin-top: 393px;
+  margin-left: -125px;
+  width: 1400px;
+  height: 1844px;
+
+}
+
+.uslugi>a {
+  display: inline-block;
+  position: relative;
+  color: white;
+  font-size: 18px;
+  margin-left: 127px;
+  margin-top: 151px;
+  line-height: 24.59px;
+  font-family: "Manrope", sans-serif;
+
+}
+
+.uslugi>img {
+  margin-left: 125px;
+  margin-top: 34px;
+  width: 1150px;
+  height: 270px;
+}
+
+.uslugi>h3 {
+  color: white;
+  margin-left: 125px;
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 40.98px;
+  font-family: "Manrope", sans-serif;
+}
+
+.pdk {
+  display: inline-block;
+  position: relative;
+  margin-top: 2213px;
+  margin-left: 125px;
+  width: 1151.35px;
+  height: 650px;
+  font-family: "Manrope", sans-serif;
+}
+
+.lesnoi {
+  position: relative;
+  width: 1400px;
+  height: 655px;
+  margin-left: -250px;
+  background-image: url(../images/krovat.jpg);
+ }
+
+.lesnoi>span>p {
+  color: white;
+  position: relative;
+  margin-left: 125px;
+  top: 530px;
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  line-height: 40.98px;
+  width: 443px;
+  height: 82px;
+}
+
+.phone {
+  display: block;
+  margin-left: 125px;
+  margin-top: 150px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact {
+  margin-left: 125px;
+  margin-top: 12px;
+}
+.contact>h1>a{
+  font-size: 60px;
+  line-height: 60px;
+  
+}
+.contact>a {
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Manrope", sans-serif;
+  color: gray;
+  text-decoration: underline;
+}
+
+.contact>a:hover {
+  color: blue;
+}
+
+.contact>p {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  line-height: 24.59px;
+  width: 90px;
+  height: 25px;
+}
+
+footer {
+  width: 1400px;
+  height: 229px;
+  display: list-item;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(1, 1, 1);
+  width: 1400px;
+  height: 229px;
+  margin-top: 150px;
+}
+
+.footer>ul {
+  display: inline-flex;
+  list-style: none;
+  margin: auto;
+  margin-top: 60px;
+  font-family: "Manrope", sans-serif;
+}
+
+.footer>ul>li>a {
+  padding-inline: 30px;
+  border: none;
+  color: white;
+}
+
+.footer>ul>:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer>p {
+  color: white;
+  font-size: 20px;
+  opacity: 50%;
+  margin-top: 87px;
+  font-family: "Manrope", sans-serif;
+}
